@@ -16,7 +16,7 @@ jobs:
       - name: Extract latest Bulk 16 project
         run: |
           rm -rf app src gradle
-          unzip -q Bulk16Android_phone_build_fixed.zip.zip
+          unzip -q Bulk16Android_phone_build_fixed.zip
           cp -r b16ready/app .
           cp b16ready/build.gradle .
           cp b16ready/settings.gradle .

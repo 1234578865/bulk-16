@@ -13,7 +13,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip -q Bulk16Android_phone_build.zip
+          unzip -q Bulk16Android_v3.zip
           cp -r b16ready/. .
 
       - name: Set up JDK
